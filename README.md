@@ -1,24 +1,24 @@
-# README
+# Requirement
+ruby 3.1.2 \
+rails 7.0.6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Installation (after clone)
+```
+bundle install
+```
 
-Things you may want to cover:
+# Server start
+```
+rails s
+```
 
-* Ruby version
+# API
 
-* System dependencies
+## POST /api/v1/conversation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Return data:
+```
+{
+    "message": "Clear your mind must be, if you are to find the villains behind this plot."
+}
+```
